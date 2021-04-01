@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4vw;
+  display: block;
+  margin: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  border: 2px solid black;
+  margin-top: 50px;
+}
+
+#media-div {
+  text-align: center;
+}

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  min-height: 1500px;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: cyan;
+}
+
+button:hover {
+  background-color: grey;
+  transition: ease-in-out .3s;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button a {
+  text-decoration: none;
+  color: cyan;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: cyan;
+}
+
+h4,h3,h2 {
+  text-align: center;
+  overflow: hidden;
+}
+
+section:before {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, white, transparent);
+  z-index: 10000;
+}
+
+section:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: white
+  z-index: 10000;
+  mix-blend-mode: color;
+}
+
+section #laptop {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 40%;
+  height: 45%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+section #desk {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 40%;
+  height: 45%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#header {
+  position: relative;
+  font-size: 4.45vw;
+  color: white;
+  margin-right: 190px;
+}
+
+#text {
+  position: relative;
+  font-size: 3.45vw;
+  color: black;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#text h2 {
+  font-size: 6.45vw;
+}
+
+#text h3 {
+  text-align: center;
+}
+
+#media-div {
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#media-div h4 {
+  font-size: 4.6vw;
+  text-align: center;
+  margin-top: 50px;
+  /* display: inline-block; */
+}
+
+#special {
+  text-decoration: none;
+  color: black;
+}
+
+#special:hover {
+  text-decoration: none;
+  color: white;
+}
+
+div img {
+  float: left;
+  margin-right: 20px;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ScrollBar%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.scrollbar {
+  margin-right: 10px;
+  position: fixed;
+  top: 54%;
+  right: 0;
+}
+
+.scrollbar a {
+  display: block;
+  color: black;
+  font-size: 30px;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ViewPort%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 699px;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.table {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.table a {
+  text-decoration: none;
+}
+
+#special {
+  text-decoration: none;
+  color: black;
+}
+
+#special:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#suites {
+  float: left;
+  margin-left: 20px;
+  width: 47vw;
+  height: 70vh;
+  font-size: 40px;
+}
+
+#tour {
+  float: right;
+  margin-right: 20px;
+  width: 44vw;
+  margin-bottom: 25px;
+}
+
+#inspiring-image {
+  margin-right: 20px;
+  width: 44vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}

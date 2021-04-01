@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 40px 0 70px 0;
+}
+
+p {
+  font-size: 1.13vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-left: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  width: 62vw;
+  margin: 30px auto;
+  background-color: grey;
+}
+
+.btn-long {
+  width: 60vw;
+}
+
+.dropdown-menu {
+  width: 60vw;
+  animation: fadein .3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
